@@ -55,7 +55,7 @@
     }
 }
 
-/* Responsividade */
+/* Responsividade MOBILE */
 @media screen and (max-width: 1023px){
     .margem-all {
         display: flex;
