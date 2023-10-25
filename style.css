@@ -9,3 +9,76 @@
 .margem-botao{
     margin-top: 200%;
 }
+
+.botao {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/725/725624.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.botao {
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+    border-radius: 100%;
+}
+
+.botao:hover {
+    background-position: center;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+    0% {
+    box-shadow: 0 0 0 0 #05bada66;
+    }
+
+    70% {
+    box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+
+    100% {
+    box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .margem-all {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+    .navbar {
+        width: 115.1%;
+    }
+    .carousel-inner {
+        width: 115.1%;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        width: 120%;
+    }
+    .carousel-caption {
+        flex-direction: column;
+        width: 100%;
+        left: 1%;
+        height: 40%;
+    }
+}
