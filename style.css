@@ -55,6 +55,7 @@
     }
 }
 
+/* Responsividade*/
 @media screen and (max-width: 1023px){
     .margem-all {
         display: flex;
@@ -65,10 +66,10 @@
         width: 100%;
     }
     .navbar {
-        width: 115.1%;
+        width: 120.1%;
     }
     .carousel-inner {
-        width: 115.1%;
+        width: 120.1%;
     }
     .row {
         display: flex;
