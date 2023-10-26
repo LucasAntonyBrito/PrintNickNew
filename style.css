@@ -11,14 +11,14 @@
 }
 
 .botao {
-    width: 70px;
-    height: 70px;
+    width: 85px;
+    height: 85px;
     border-radius: 100%;
     position: fixed;
     bottom: 10px;
     right: 10px;
     cursor: pointer;
-    background-image: url("https://cdn-icons-png.flaticon.com/512/725/725624.png");
+    background-image: url("imagens/whatsapp-icon.gif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
